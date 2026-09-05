@@ -1,0 +1,6 @@
+{
+  "name": "Jutt Sweet Bakery",
+  "description": "Jutt Sweet Bakery in Daroghawala, Ahmad Town, Lahore offers fresh cakes, biscuits and custom cakes starting from Rs. 1,500. Order via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
