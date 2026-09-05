@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jutt Sweet Bakery Lahore</title>
+    <script>
+      // Single Page Application redirect for GitHub Pages
+      const path = window.location.pathname;
+      const base = '/jutt-sweet-bakery/';
+      if (!path.startsWith(base)) {
+        window.location.replace(base);
+      } else {
+        window.location.replace(base + window.location.search + window.location.hash);
+      }
+    </script>
+  </head>
+  <body style="font-family: sans-serif; text-align: center; padding: 40px; background-color: #FAF7F2; color: #2E1C14;">
+    <h2>Redirecting to Jutt Sweet Bakery...</h2>
+    <p><a href="/jutt-sweet-bakery/" style="color: #8C5E3C; text-decoration: underline;">Click here if you are not redirected automatically</a></p>
+  </body>
+</html>
